@@ -1,0 +1,134 @@
+body {
+  background-color: #070707;
+}
+
+section {
+  padding-left: 340px;
+  padding-right: 340px;
+}
+
+@font-face {
+  font-family: "Dela Gothic One";
+  src: url("DelaGothicOne-Regular.eot");
+  src: local("Dela Gothic One Regular"), local("DelaGothicOne-Regular"), url("DelaGothicOne-Regular.eot?#iefix") format("embedded-opentype"), url("DelaGothicOne-Regular.woff2") format("woff2"), url("DelaGothicOne-Regular.woff") format("woff"), url("DelaGothicOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@media screen and (max-width: 768px) {
+  .hero-section__title {
+    font-size: 50px;
+  }
+  .hero-section__subtitle {
+    font-size: 30px;
+  }
+  .slide-text {
+    font-size: 25px;
+  }
+}
+.hero-section__text {
+  margin-bottom: 80px;
+}
+
+.hero-section__title {
+  font-family: "Dela Gothic One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 1.371;
+  color: #EFEFEF;
+  margin-bottom: 0;
+}
+
+.hero-section__subtitle {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 64px;
+  color: rgba(239, 239, 239, 0.7);
+}
+
+.hero-section__slider {
+  position: relative;
+}
+
+.hero-section__slide {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-picture {
+  position: relative;
+}
+
+.slide-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96px;
+  height: 96px;
+  background-color: #FFCE68;
+  box-shadow: 0px 25px 35px rgba(0, 0, 0, 0.35), inset 2px 2px 8px rgba(255, 255, 255, 0.35), inset -2px -2px 5px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 335px;
+  top: 33px;
+}
+
+.slide-text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.828;
+  color: #EFEFEF;
+}
+
+.slide-descr {
+  max-width: 539px;
+  margin-left: 104px;
+}
+
+.swiper-btns {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 57px;
+  height: 31px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.6));
+  background: linear-gradient(103.73deg, rgba(255, 255, 255, 0.18) 2.39%, rgba(111, 111, 111, 0.2) 97.3%);
+  cursor: pointer;
+}
+
+.arrow-icon {
+  fill: #FFCE68;
+}
+
+.swiper-paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 64px;
+  gap: 25px;
+}
+
+.swiper-paginator-bullet {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 2.56;
+  text-align: center;
+  color: #A9A9A9;
+}/*# sourceMappingURL=main.min.css.map */
