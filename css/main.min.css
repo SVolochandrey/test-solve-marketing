@@ -51,6 +51,7 @@ section {
 
 .hero-section__slider {
   position: relative;
+  margin-bottom: 53px;
 }
 
 .hero-section__slide {
@@ -93,7 +94,7 @@ section {
   display: flex;
   justify-content: space-between;
   position: absolute;
-  bottom: 50%;
+  top: 50%;
   width: 100%;
   transform: translateY(-50%);
 }
