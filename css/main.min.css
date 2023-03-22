@@ -2,19 +2,31 @@ body {
   background-color: #070707;
 }
 
-section {
-  padding-left: 340px;
-  padding-right: 340px;
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  section {
+    padding-left: 220px;
+    padding-right: 220px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  section {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media screen and (max-width: 767px) {
+  section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  section {
+    padding-left: 340px;
+    padding-right: 340px;
+  }
 }
 
-@font-face {
-  font-family: "Dela Gothic One";
-  src: url("DelaGothicOne-Regular.eot");
-  src: local("Dela Gothic One Regular"), local("DelaGothicOne-Regular"), url("DelaGothicOne-Regular.eot?#iefix") format("embedded-opentype"), url("DelaGothicOne-Regular.woff2") format("woff2"), url("DelaGothicOne-Regular.woff") format("woff"), url("DelaGothicOne-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 @media screen and (max-width: 768px) {
   .hero-section__title {
     font-size: 50px;
@@ -31,8 +43,7 @@ section {
 }
 
 .hero-section__title {
-  font-family: "Dela Gothic One";
-  font-style: normal;
+  font-family: "Dela Gothic One", sans-serif;
   font-weight: 400;
   font-size: 70px;
   line-height: 1.371;
@@ -41,8 +52,7 @@ section {
 }
 
 .hero-section__subtitle {
-  font-family: "Noto Sans";
-  font-style: normal;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 300;
   font-size: 40px;
   line-height: 64px;
@@ -52,6 +62,7 @@ section {
 .hero-section__slider {
   position: relative;
   margin-bottom: 53px;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .hero-section__slide {
@@ -77,8 +88,7 @@ section {
 }
 
 .slide-text {
-  font-family: "Noto Sans";
-  font-style: normal;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   font-size: 35px;
   line-height: 1.828;
@@ -125,11 +135,21 @@ section {
 }
 
 .swiper-paginator-bullet {
-  font-family: "Noto Sans";
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
   font-size: 25px;
   line-height: 2.56;
   text-align: center;
   color: #A9A9A9;
-}/*# sourceMappingURL=main.min.css.map */
+  cursor: pointer;
+}
+
+.active {
+  color: #FFCE68;
+}
+
+.is-hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=main.min.css.map */

@@ -3,6 +3,22 @@ background-color: #070707;
 }
 
 section {
-padding-left: 340px;
-padding-right: 340px;
+@media screen and (min-width:1200px) and (max-width:1919px){
+padding-left: 220px;
+padding-right: 220px;
 }
+@media screen and (min-width:768px) and (max-width:1199px) {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+@media screen and (max-width:767px) {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+@media screen and (min-width:1920px) {
+    padding-left: 340px;
+    padding-right: 340px;
+}
+}
+
+
