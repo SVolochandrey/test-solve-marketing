@@ -32,7 +32,7 @@ body {
 
 @font-face {
   font-family: "Dela Gothic One";
-  src: url(../../fonts/DelaGothicOne-Regular.ttf);
+  src: url(/fonts/DelaGothicOne-Regular.ttf);
 }
 .hero-section__text {
   margin-bottom: 80px;
