@@ -1,19 +1,10 @@
-@media screen and (max-width: 768px) {
-.hero-section__title {
-    font-size: 50px;
-}
-
-.hero-section__subtitle {
-    font-size: 30px;
-}
-
-.slide-text {
-    font-size: 25px;
-}
-}
-
 .hero-section__text {
 margin-bottom: 80px;
+
+@media screen and (min-width:480px) and (max-width:767px) {
+max-width: 100%;
+margin-bottom: 15px;
+}
 }
 
 .hero-section__title {
@@ -23,15 +14,25 @@ font-weight: 400;
 font-size: 70px;
 line-height: 1.371;
 color: #EFEFEF;
-margin-bottom: 0;
+margin:auto;
+
+@media screen and (min-width:480px) and (max-width:767px) {
+font-size: 55px;
+line-height: 1.2;
+}
 }
 
 .hero-section__subtitle {
 font-family: 'Noto Sans', sans-serif;
 font-weight: 300;
 font-size: 40px;
-line-height: 64px;
+line-height: 2.5;
 color: rgba(239, 239, 239, 0.7);
+
+@media screen and (min-width:480px) and (max-width:767px) {
+font-size: 26px;
+line-height: 2;
+}
 }
 
 .hero-section__slider {
@@ -39,6 +40,9 @@ position: relative;
 margin-bottom: 53px;
 transition: opacity 0.5s ease-in-out;
 
+@media screen and (min-width:480px) and (max-width:767px) {
+margin-bottom: 40px;
+}
 }
 
 .hero-section__slide {
@@ -61,6 +65,23 @@ box-shadow: 0px 25px 35px rgba(0, 0, 0, 0.35), inset 2px 2px 8px rgba(255, 255, 
 position: absolute;
 left: 335px;
 top: 33px;
+
+@media screen and (min-width:480px) and (max-width:767px) {
+width: 55px;
+height: 55px;
+left: 172px;
+top: 18px;
+}
+}
+
+.slide-icon {
+width: 57px;
+height: 47px;
+
+@media screen and (min-width:480px) and (max-width:767px) {
+width: 47px;
+height: 37px;
+}
 }
 
 .slide-text {
@@ -69,11 +90,20 @@ font-weight: 700;
 font-size: 35px;
 line-height: 1.828;
 color: #EFEFEF;
+
+@media screen and (min-width:480px) and (max-width:767px) {
+font-size: 20px;
+line-height: 1.5;
+}
 }
 
 .slide-descr {
-max-width: 539px;
+max-width: 100%;
 margin-left: 104px;
+
+@media screen and (min-width:480px) and (max-width:767px) {
+margin-left: 52px;
+}
 }
 
 .swiper-btns {
@@ -83,6 +113,10 @@ position: absolute;
 top: 50%;
 width: 100%;
 transform: translateY(-50%);
+
+@media screen and (min-width:480px) and (max-width:767px) {
+top: 112%;
+}
 }
 
 .swiper-button-next,
@@ -110,7 +144,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 width: 100%;
-height: 64px;
 gap: 25px;
 }
 
