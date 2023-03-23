@@ -1,46 +1,24 @@
-body {
-  background-color: #070707;
-}
-
-@media screen and (min-width: 1200px) and (max-width: 1919px) {
-  section {
-    padding: 0 220px;
+@media screen and (min-width: 480px) {
+  .hero-section__text {
+    max-width: 464px;
+    margin: auto;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  section {
-    padding: 0 100px;
+@media screen and (min-width: 768px) {
+  .hero-section__text {
+    max-width: 752px;
   }
 }
-@media screen and (max-width: 767px) {
-  section {
-    padding: 0 20px;
+@media screen and (min-width: 1200px) {
+  .hero-section__text {
+    max-width: 1184px;
+    margin-bottom: 25px;
   }
 }
 @media screen and (min-width: 1920px) {
-  section {
-    padding: 0 340px;
-  }
-}
-
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  img {
-    width: 200px;
-    height: 200px;
-  }
-}
-
-@font-face {
-  font-family: "Dela Gothic One";
-  src: url(/fonts/DelaGothicOne-Regular.ttf);
-}
-.hero-section__text {
-  margin-bottom: 80px;
-}
-@media screen and (min-width: 480px) and (max-width: 767px) {
   .hero-section__text {
-    max-width: 100%;
-    margin-bottom: 15px;
+    max-width: 1224px;
+    margin-bottom: 80px;
   }
 }
 
@@ -48,15 +26,23 @@ body {
   font-family: "Dela Gothic One";
   font-style: normal;
   font-weight: 400;
-  font-size: 70px;
   line-height: 1.371;
   color: #EFEFEF;
   margin: auto;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .hero-section__title {
     font-size: 55px;
-    line-height: 1.2;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-section__title {
+    font-size: 80px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .hero-section__title {
+    font-size: 70px;
   }
 }
 
@@ -67,21 +53,46 @@ body {
   line-height: 2.5;
   color: rgba(239, 239, 239, 0.7);
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .hero-section__subtitle {
-    font-size: 26px;
-    line-height: 2;
+    line-height: 1.5;
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-section__subtitle {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-section__subtitle {
+    font-size: 40px;
   }
 }
 
 .hero-section__slider {
   position: relative;
-  margin-bottom: 53px;
-  transition: opacity 0.5s ease-in-out;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .hero-section__slider {
-    margin-bottom: 40px;
+    max-width: 464px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-section__slider {
+    max-width: 752px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-section__slider {
+    max-width: 1184px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .hero-section__slider {
+    max-width: 1224px;
+    margin-bottom: 53px;
   }
 }
 
@@ -98,55 +109,87 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 96px;
-  height: 96px;
   background-color: #FFCE68;
   box-shadow: 0px 25px 35px rgba(0, 0, 0, 0.35), inset 2px 2px 8px rgba(255, 255, 255, 0.35), inset -2px -2px 5px rgba(0, 0, 0, 0.5);
   position: absolute;
-  left: 335px;
-  top: 33px;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .slide-svg {
-    width: 55px;
-    height: 55px;
-    left: 172px;
+    width: 60px;
+    height: 60px;
+    left: 171px;
     top: 18px;
   }
 }
-
-.slide-icon {
-  width: 57px;
-  height: 47px;
+@media screen and (min-width: 1200px) {
+  .slide-svg {
+    width: 96px;
+    height: 96px;
+    left: 335px;
+    top: 33px;
+  }
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+
+@media screen and (min-width: 480px) {
   .slide-icon {
     width: 47px;
     height: 37px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .slide-icon {
+    width: 57px;
+    height: 47px;
   }
 }
 
 .slide-text {
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
-  font-size: 35px;
   line-height: 1.828;
   color: #EFEFEF;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .slide-text {
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .slide-text {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .slide-text {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .slide-text {
+    font-size: 35px;
   }
 }
 
-.slide-descr {
-  max-width: 100%;
-  margin-left: 104px;
-}
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .slide-descr {
     margin-left: 52px;
+    max-width: 232px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .slide-descr {
+    max-width: 329px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .slide-descr {
+    max-width: 575px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .slide-descr {
+    max-width: 539px;
+    margin-left: 104px;
   }
 }
 
@@ -158,9 +201,14 @@ body {
   width: 100%;
   transform: translateY(-50%);
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .swiper-btns {
     top: 112%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .swiper-btns {
+    top: 50%;
   }
 }
 
@@ -204,4 +252,32 @@ body {
 
 .is-hidden {
   display: none;
+}
+
+body {
+  background-color: #070707;
+}
+
+@media screen and (min-width: 1920px) {
+  section {
+    padding: 0 340px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  img {
+    width: 384px;
+    height: 384px;
+  }
+}
+
+@font-face {
+  font-family: "Dela Gothic One";
+  src: url(/fonts/DelaGothicOne-Regular.ttf);
 }/*# sourceMappingURL=main.min.css.map */
