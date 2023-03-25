@@ -279,5 +279,8 @@ body {
 
 @font-face {
   font-family: "Dela Gothic One";
-  src: url(/fonts/DelaGothicOne-Regular.ttf);
-}/*# sourceMappingURL=main.min.css.map */
+  src: url(/fonts/DelaGothicOne-Regular.ttf) format(truetype);
+}
+
+
+/*# sourceMappingURL=main.min.css.map */
